@@ -1,6 +1,7 @@
+
 language: java
 sudo: false
-script:
- - "mvn -f Ders4Proje/pom.xml clean test install" 
- jdk:
+script: 
+  - "mvn -f Ders4Proje/pom.xml clean test install"
+jdk:
   - oraclejdk8
